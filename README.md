@@ -1,2 +1,4 @@
-# hyperdev-redirect-middleware-2
-Express app demonstrating middleware for redirects
+Route direction middleware
+==========================
+
+https://github.com/Thinkful-Ed/hyperdev-redirect-middleware-2
