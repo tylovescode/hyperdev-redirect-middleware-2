@@ -5,7 +5,9 @@ const makeRedirectMiddleware = (redirectsMap) => (req, res, next) => {
     console.log(`Redirecting ${req.path} to ${redirectsMap[req.path]}`);
     res.redirect(301, redirectsMap[req.path]);
   }
-  next();
+  else {
+    next(); 
+  }
 };
 
 module.exports = {makeRedirectMiddleware};
